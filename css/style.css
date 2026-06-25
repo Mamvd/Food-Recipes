@@ -7,7 +7,7 @@ html {
   text-align: center;
   padding: 16px 0;
   background-color: blanchedalmond;
-  /* box-shadow: 0 0 24px rgba(0, 0, 0, 0.3); */
+  box-shadow: 0 0 24px rgba(0, 0, 0, 0.3);
   /* position: fixed; */
   width: 100%;
 }
@@ -62,4 +62,14 @@ html {
 .food-card-title {
   font-weight: bold;
   align-self: center;
+}
+
+.return {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+  background-color: blanchedalmond;
+  box-shadow: 0 0 24px rgba(0, 0, 0, 0.3);
+  /* position: fixed; */
 }
